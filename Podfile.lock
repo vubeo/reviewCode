@@ -1,0 +1,29 @@
+PODS:
+  - Dropper (2.7.6)
+  - GoogleMaps (2.7.0):
+    - GoogleMaps/Maps (= 2.7.0)
+  - GoogleMaps/Base (2.7.0)
+  - GoogleMaps/Maps (2.7.0):
+    - GoogleMaps/Base
+  - GooglePlaces (2.7.0):
+    - GoogleMaps/Base (= 2.7.0)
+
+DEPENDENCIES:
+  - Dropper
+  - GoogleMaps
+  - GooglePlaces
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Dropper
+    - GoogleMaps
+    - GooglePlaces
+
+SPEC CHECKSUMS:
+  Dropper: 52a020beb6fef2e4b1d55447f17099e5776954ef
+  GoogleMaps: f79af95cb24d869457b1f961c93d3ce8b2f3b848
+  GooglePlaces: 3d06e6c99654545b4738ce49648745779c25f2ef
+
+PODFILE CHECKSUM: eedc84487821689e098fe9c99fc4e7034408ebbf
+
+COCOAPODS: 1.5.2

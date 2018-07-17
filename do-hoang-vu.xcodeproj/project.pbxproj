@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2260B3EB20F4408B00E2A9AF /* SearchResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2260B3EA20F4408B00E2A9AF /* SearchResultsController.swift */; };
+		2260B3ED20F4432500E2A9AF /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2260B3EC20F4432500E2A9AF /* DataService.swift */; };
+		71376D1E20EF52AE008E3C76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71376D1D20EF52AE008E3C76 /* AppDelegate.swift */; };
+		71376D2020EF52AE008E3C76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71376D1F20EF52AE008E3C76 /* ViewController.swift */; };
+		71376D2320EF52AE008E3C76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71376D2120EF52AE008E3C76 /* Main.storyboard */; };
+		71376D2520EF52AE008E3C76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71376D2420EF52AE008E3C76 /* Assets.xcassets */; };
+		71376D2820EF52AF008E3C76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71376D2620EF52AF008E3C76 /* LaunchScreen.storyboard */; };
+		71376D3020EF5892008E3C76 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71376D2F20EF5892008E3C76 /* CollectionViewCell.swift */; };
+		7148D20320F8346A0030EDE4 /* NetWorking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7148D20220F8346A0030EDE4 /* NetWorking.swift */; };
+		717E9DF120F2FCF00034F731 /* Dropper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 717E9DF220F2FCF00034F731 /* Dropper.framework */; };
+		719CF1FD20F728E900E48466 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719CF1FC20F728E900E48466 /* Token.swift */; };
+		719CF1FF20F7318500E48466 /* NameCollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719CF1FE20F7318500E48466 /* NameCollectionItem.swift */; };
+		71E03A1220FD8D7400B54B8A /* LocationRdiusOneKm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E03A1120FD8D7400B54B8A /* LocationRdiusOneKm.swift */; };
+		F49F6CC026E759A840A9F93C /* Pods_do_hoang_vu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF0BEFBACFD53EF8A0E35378 /* Pods_do_hoang_vu.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2260B3EA20F4408B00E2A9AF /* SearchResultsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsController.swift; sourceTree = "<group>"; };
+		2260B3EC20F4432500E2A9AF /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		5F21D3A56C2832156B65B2F2 /* Pods-do-hoang-vu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-do-hoang-vu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-do-hoang-vu/Pods-do-hoang-vu.debug.xcconfig"; sourceTree = "<group>"; };
+		71376D1A20EF52AE008E3C76 /* do-hoang-vu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "do-hoang-vu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71376D1D20EF52AE008E3C76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71376D1F20EF52AE008E3C76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		71376D2220EF52AE008E3C76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71376D2420EF52AE008E3C76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71376D2720EF52AF008E3C76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71376D2920EF52AF008E3C76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71376D2F20EF5892008E3C76 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		7148D20220F8346A0030EDE4 /* NetWorking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorking.swift; sourceTree = "<group>"; };
+		717E9DF220F2FCF00034F731 /* Dropper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Dropper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		719CF1FC20F728E900E48466 /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		719CF1FE20F7318500E48466 /* NameCollectionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameCollectionItem.swift; sourceTree = "<group>"; };
+		71E03A1120FD8D7400B54B8A /* LocationRdiusOneKm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationRdiusOneKm.swift; sourceTree = "<group>"; };
+		CF0BEFBACFD53EF8A0E35378 /* Pods_do_hoang_vu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_do_hoang_vu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E63416E1D6848E4F9FE6683B /* Pods-do-hoang-vu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-do-hoang-vu.release.xcconfig"; path = "Pods/Target Support Files/Pods-do-hoang-vu/Pods-do-hoang-vu.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71376D1720EF52AE008E3C76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				717E9DF120F2FCF00034F731 /* Dropper.framework in Frameworks */,
+				F49F6CC026E759A840A9F93C /* Pods_do_hoang_vu.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5ED69A420D257BA20889E9DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F21D3A56C2832156B65B2F2 /* Pods-do-hoang-vu.debug.xcconfig */,
+				E63416E1D6848E4F9FE6683B /* Pods-do-hoang-vu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7116459A20F46D7200C9A616 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				71376D2120EF52AE008E3C76 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7116459B20F46D7400C9A616 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				71376D1F20EF52AE008E3C76 /* ViewController.swift */,
+				2260B3EA20F4408B00E2A9AF /* SearchResultsController.swift */,
+				71376D2F20EF5892008E3C76 /* CollectionViewCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7116459C20F46D7500C9A616 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				719CF1FC20F728E900E48466 /* Token.swift */,
+				719CF1FE20F7318500E48466 /* NameCollectionItem.swift */,
+				71E03A1120FD8D7400B54B8A /* LocationRdiusOneKm.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		71376D1120EF52AE008E3C76 = {
+			isa = PBXGroup;
+			children = (
+				71376D1C20EF52AE008E3C76 /* do-hoang-vu */,
+				71376D1B20EF52AE008E3C76 /* Products */,
+				5ED69A420D257BA20889E9DD /* Pods */,
+				F49D24D1E7C021F803D9720A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		71376D1B20EF52AE008E3C76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71376D1A20EF52AE008E3C76 /* do-hoang-vu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71376D1C20EF52AE008E3C76 /* do-hoang-vu */ = {
+			isa = PBXGroup;
+			children = (
+				7148D20420F834760030EDE4 /* NetWorking */,
+				7116459C20F46D7500C9A616 /* Model */,
+				7116459B20F46D7400C9A616 /* Controller */,
+				7116459A20F46D7200C9A616 /* View */,
+				71376D1D20EF52AE008E3C76 /* AppDelegate.swift */,
+				71376D2420EF52AE008E3C76 /* Assets.xcassets */,
+				71376D2620EF52AF008E3C76 /* LaunchScreen.storyboard */,
+				71376D2920EF52AF008E3C76 /* Info.plist */,
+			);
+			path = "do-hoang-vu";
+			sourceTree = "<group>";
+		};
+		7148D20420F834760030EDE4 /* NetWorking */ = {
+			isa = PBXGroup;
+			children = (
+				7148D20220F8346A0030EDE4 /* NetWorking.swift */,
+				2260B3EC20F4432500E2A9AF /* DataService.swift */,
+			);
+			path = NetWorking;
+			sourceTree = "<group>";
+		};
+		F49D24D1E7C021F803D9720A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				717E9DF220F2FCF00034F731 /* Dropper.framework */,
+				CF0BEFBACFD53EF8A0E35378 /* Pods_do_hoang_vu.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71376D1920EF52AE008E3C76 /* do-hoang-vu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71376D2C20EF52AF008E3C76 /* Build configuration list for PBXNativeTarget "do-hoang-vu" */;
+			buildPhases = (
+				49AF01CA19B818676885068B /* [CP] Check Pods Manifest.lock */,
+				71376D1620EF52AE008E3C76 /* Sources */,
+				71376D1720EF52AE008E3C76 /* Frameworks */,
+				71376D1820EF52AE008E3C76 /* Resources */,
+				BE06A3E937E26D3E05517917 /* [CP] Copy Pods Resources */,
+				CA409FA4B8AE6EE15D6C6479 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "do-hoang-vu";
+			productName = "do-hoang-vu";
+			productReference = 71376D1A20EF52AE008E3C76 /* do-hoang-vu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71376D1220EF52AE008E3C76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Đỗ Hoàng Vũ";
+				TargetAttributes = {
+					71376D1920EF52AE008E3C76 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 71376D1520EF52AE008E3C76 /* Build configuration list for PBXProject "do-hoang-vu" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71376D1120EF52AE008E3C76;
+			productRefGroup = 71376D1B20EF52AE008E3C76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71376D1920EF52AE008E3C76 /* do-hoang-vu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71376D1820EF52AE008E3C76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71376D2820EF52AF008E3C76 /* LaunchScreen.storyboard in Resources */,
+				71376D2520EF52AE008E3C76 /* Assets.xcassets in Resources */,
+				71376D2320EF52AE008E3C76 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49AF01CA19B818676885068B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-do-hoang-vu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE06A3E937E26D3E05517917 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-do-hoang-vu/Pods-do-hoang-vu-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-do-hoang-vu/Pods-do-hoang-vu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA409FA4B8AE6EE15D6C6479 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-do-hoang-vu/Pods-do-hoang-vu-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Dropper/Dropper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Dropper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-do-hoang-vu/Pods-do-hoang-vu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71376D1620EF52AE008E3C76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2260B3EB20F4408B00E2A9AF /* SearchResultsController.swift in Sources */,
+				7148D20320F8346A0030EDE4 /* NetWorking.swift in Sources */,
+				71376D2020EF52AE008E3C76 /* ViewController.swift in Sources */,
+				719CF1FF20F7318500E48466 /* NameCollectionItem.swift in Sources */,
+				71376D1E20EF52AE008E3C76 /* AppDelegate.swift in Sources */,
+				719CF1FD20F728E900E48466 /* Token.swift in Sources */,
+				71E03A1220FD8D7400B54B8A /* LocationRdiusOneKm.swift in Sources */,
+				71376D3020EF5892008E3C76 /* CollectionViewCell.swift in Sources */,
+				2260B3ED20F4432500E2A9AF /* DataService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		71376D2120EF52AE008E3C76 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71376D2220EF52AE008E3C76 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71376D2620EF52AF008E3C76 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71376D2720EF52AF008E3C76 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71376D2A20EF52AF008E3C76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71376D2B20EF52AF008E3C76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71376D2D20EF52AF008E3C76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F21D3A56C2832156B65B2F2 /* Pods-do-hoang-vu.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 46W25C8KDG;
+				INFOPLIST_FILE = "do-hoang-vu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ominext.vu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "aa4339b3-a883-4741-bb73-e14de1eb558e";
+				PROVISIONING_PROFILE_SPECIFIER = omiall;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71376D2E20EF52AF008E3C76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E63416E1D6848E4F9FE6683B /* Pods-do-hoang-vu.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 46W25C8KDG;
+				INFOPLIST_FILE = "do-hoang-vu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ominext.vu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "aa4339b3-a883-4741-bb73-e14de1eb558e";
+				PROVISIONING_PROFILE_SPECIFIER = omiall;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71376D1520EF52AE008E3C76 /* Build configuration list for PBXProject "do-hoang-vu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71376D2A20EF52AF008E3C76 /* Debug */,
+				71376D2B20EF52AF008E3C76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71376D2C20EF52AF008E3C76 /* Build configuration list for PBXNativeTarget "do-hoang-vu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71376D2D20EF52AF008E3C76 /* Debug */,
+				71376D2E20EF52AF008E3C76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71376D1220EF52AE008E3C76 /* Project object */;
+}

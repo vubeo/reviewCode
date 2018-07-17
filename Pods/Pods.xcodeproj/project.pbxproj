@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		049749F8E8DD941A4A88837EA7217B29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2107E540B0D204F4DEDD93D668A87048 /* DropperCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF49BD37B3547E3BE644C892B16E082E /* DropperCell.swift */; };
+		3B28A9AE2EDD7A271D79320639A4481F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4D99DEB264819F8CDE2EADD2D2C66B2F /* Pods-do-hoang-vu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF48E13BCB724E899D331E56F1B77626 /* Pods-do-hoang-vu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DA4C5E0DF43500E9FF46FCC47D29D9D /* DropperExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55A6590058D8D1105E5028FB9DAB24C /* DropperExtensions.swift */; };
+		68C18B76F3C5BA0728EC11F299B96E2E /* Dropper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1C077549AA832942536F10A3697125 /* Dropper.swift */; };
+		6E7AE3ECFFB08DD889D8923952FB9C74 /* Dropper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95D3C88FDE18A6A4F02F72866CF92059 /* Dropper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85E75594C84C3C63AA0954D2B8C49EE8 /* Dropper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F46A568C8FA4D281BFC7244AE845294 /* Dropper-dummy.m */; };
+		B3EF7147B02F1D228F19B79293564A72 /* Pods-do-hoang-vu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5462E3D8BA7E6516D762A9CE24BDF2EF /* Pods-do-hoang-vu-dummy.m */; };
+		EC10FD142BC1BAB99D279DDB433AAD83 /* DropperDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA779FCBE2A1BB7AF59D2EF5E24601F /* DropperDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1737AAD60B6C537B5CDA3DA1E39C6D42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35753FFAC94E4E30249C261EB4F29321;
+			remoteInfo = Dropper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03ECF3D6A2512A72C2F46004BAB0EC6B /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		162FE7C93543BDA2EB35B9D010ED6D2A /* Pods_do_hoang_vu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_do_hoang_vu.framework; path = "Pods-do-hoang-vu.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		211575745F151374A58D6EF85B19F77C /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		2D1C077549AA832942536F10A3697125 /* Dropper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dropper.swift; path = Pod/Classes/Dropper.swift; sourceTree = "<group>"; };
+		31BAAC6CC4F8C21DB2C2031E8B823472 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		38B649F4A5FBA208D79DC1F9D94C5CDA /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		3EA779FCBE2A1BB7AF59D2EF5E24601F /* DropperDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropperDelegate.swift; path = Pod/Classes/DropperDelegate.swift; sourceTree = "<group>"; };
+		437E00A4A8306465D945030DCE52C00A /* Pods-do-hoang-vu-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-do-hoang-vu-resources.sh"; sourceTree = "<group>"; };
+		5462E3D8BA7E6516D762A9CE24BDF2EF /* Pods-do-hoang-vu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-do-hoang-vu-dummy.m"; sourceTree = "<group>"; };
+		571072AF9F519FF9575A3E936C1A0A3C /* Pods-do-hoang-vu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-do-hoang-vu.release.xcconfig"; sourceTree = "<group>"; };
+		5FB0BD5C0A9F67EFDCAA6D56135E313E /* Pods-do-hoang-vu-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-do-hoang-vu-acknowledgements.plist"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6AF36310D972D274C4F9C9CAC75A1ED7 /* Pods-do-hoang-vu-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-do-hoang-vu-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6FE275F2585DA662E78CFB1F5BD23BCD /* Dropper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Dropper.framework; path = Dropper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9522D99B101A50705F1AED0C5BC0EF14 /* Dropper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Dropper.xcconfig; sourceTree = "<group>"; };
+		95D3C88FDE18A6A4F02F72866CF92059 /* Dropper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Dropper-umbrella.h"; sourceTree = "<group>"; };
+		9F46A568C8FA4D281BFC7244AE845294 /* Dropper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Dropper-dummy.m"; sourceTree = "<group>"; };
+		A50B2345D3C5F374990429B5836528F3 /* Dropper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Dropper-prefix.pch"; sourceTree = "<group>"; };
+		A55A6590058D8D1105E5028FB9DAB24C /* DropperExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropperExtensions.swift; path = Pod/Classes/DropperExtensions.swift; sourceTree = "<group>"; };
+		AF49BD37B3547E3BE644C892B16E082E /* DropperCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropperCell.swift; path = Pod/Classes/DropperCell.swift; sourceTree = "<group>"; };
+		BDD434BC4435A526ABAE862AA333FBD6 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		BF48E13BCB724E899D331E56F1B77626 /* Pods-do-hoang-vu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-do-hoang-vu-umbrella.h"; sourceTree = "<group>"; };
+		C83AC83CD0951C10E480EB679E3E821F /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		C9DBBB05DD426A6712AF1D2C9C77F7F1 /* Pods-do-hoang-vu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-do-hoang-vu.modulemap"; sourceTree = "<group>"; };
+		D18241529E2D269EA5A91313E3323F4D /* Dropper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Dropper.modulemap; sourceTree = "<group>"; };
+		E6198CFCC3D441F0668EC595CC885D87 /* Pods-do-hoang-vu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-do-hoang-vu.debug.xcconfig"; sourceTree = "<group>"; };
+		F43C0FFD111130833075AC9D61B2F18D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC3F6BFD6A88B83C1A8A5ECCE5116311 /* Pods-do-hoang-vu-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-do-hoang-vu-frameworks.sh"; sourceTree = "<group>"; };
+		FF7D4F5CDAD5B0ACAEF9A10BF714C19D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		037E362730AF5DBB2A3117FBFCC44871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049749F8E8DD941A4A88837EA7217B29 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48BE00BCB7C9B82CD74B0571FE118F4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B28A9AE2EDD7A271D79320639A4481F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00AE2247E9C132C2B70D5F11FCDB8ED0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDD434BC4435A526ABAE862AA333FBD6 /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		022B292B80AC2978DDC50F5A1813BD22 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				20B6F91F9870DF3EA448DE95372DB89A /* Frameworks */,
+				6A575078599B947434BD9D25EB8FE63A /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		1195531F05747EF2D2C8EB8F16966662 /* Pods-do-hoang-vu */ = {
+			isa = PBXGroup;
+			children = (
+				F43C0FFD111130833075AC9D61B2F18D /* Info.plist */,
+				C9DBBB05DD426A6712AF1D2C9C77F7F1 /* Pods-do-hoang-vu.modulemap */,
+				6AF36310D972D274C4F9C9CAC75A1ED7 /* Pods-do-hoang-vu-acknowledgements.markdown */,
+				5FB0BD5C0A9F67EFDCAA6D56135E313E /* Pods-do-hoang-vu-acknowledgements.plist */,
+				5462E3D8BA7E6516D762A9CE24BDF2EF /* Pods-do-hoang-vu-dummy.m */,
+				FC3F6BFD6A88B83C1A8A5ECCE5116311 /* Pods-do-hoang-vu-frameworks.sh */,
+				437E00A4A8306465D945030DCE52C00A /* Pods-do-hoang-vu-resources.sh */,
+				BF48E13BCB724E899D331E56F1B77626 /* Pods-do-hoang-vu-umbrella.h */,
+				E6198CFCC3D441F0668EC595CC885D87 /* Pods-do-hoang-vu.debug.xcconfig */,
+				571072AF9F519FF9575A3E936C1A0A3C /* Pods-do-hoang-vu.release.xcconfig */,
+			);
+			name = "Pods-do-hoang-vu";
+			path = "Target Support Files/Pods-do-hoang-vu";
+			sourceTree = "<group>";
+		};
+		20B6F91F9870DF3EA448DE95372DB89A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C83AC83CD0951C10E480EB679E3E821F /* GoogleMaps.framework */,
+				211575745F151374A58D6EF85B19F77C /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		589003DC6D2A2AA054A16D0176F473BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FE275F2585DA662E78CFB1F5BD23BCD /* Dropper.framework */,
+				162FE7C93543BDA2EB35B9D010ED6D2A /* Pods_do_hoang_vu.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A575078599B947434BD9D25EB8FE63A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				31BAAC6CC4F8C21DB2C2031E8B823472 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9BC6B7F7AA59D8AF46D467226C871072 /* Pods */,
+				589003DC6D2A2AA054A16D0176F473BD /* Products */,
+				B72D3B77F32CA05D42F6A60DA781A014 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		80737F154A2DF9BAB4F9A534997193EC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A6F7875A7BF054849DCB81B6BD518880 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		9BC6B7F7AA59D8AF46D467226C871072 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB8B3F46A8BBED1F9498140294ADB245 /* Dropper */,
+				C7BDFBE089D0A913CED9E314DE7D7484 /* GoogleMaps */,
+				9DACFB02C771DDDED4D5FEF8D7F38CA9 /* GooglePlaces */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9DACFB02C771DDDED4D5FEF8D7F38CA9 /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				00AE2247E9C132C2B70D5F11FCDB8ED0 /* Frameworks */,
+				CA09F2027D5671425610CC42E64922C6 /* Resources */,
+			);
+			name = GooglePlaces;
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		A6F7875A7BF054849DCB81B6BD518880 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38B649F4A5FBA208D79DC1F9D94C5CDA /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B72D3B77F32CA05D42F6A60DA781A014 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1195531F05747EF2D2C8EB8F16966662 /* Pods-do-hoang-vu */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7BDFBE089D0A913CED9E314DE7D7484 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				80737F154A2DF9BAB4F9A534997193EC /* Base */,
+				022B292B80AC2978DDC50F5A1813BD22 /* Maps */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		CA09F2027D5671425610CC42E64922C6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				03ECF3D6A2512A72C2F46004BAB0EC6B /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DB8B3F46A8BBED1F9498140294ADB245 /* Dropper */ = {
+			isa = PBXGroup;
+			children = (
+				2D1C077549AA832942536F10A3697125 /* Dropper.swift */,
+				AF49BD37B3547E3BE644C892B16E082E /* DropperCell.swift */,
+				3EA779FCBE2A1BB7AF59D2EF5E24601F /* DropperDelegate.swift */,
+				A55A6590058D8D1105E5028FB9DAB24C /* DropperExtensions.swift */,
+				F9003C75F06F3C62540F2538A674E07A /* Support Files */,
+			);
+			name = Dropper;
+			path = Dropper;
+			sourceTree = "<group>";
+		};
+		F9003C75F06F3C62540F2538A674E07A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D18241529E2D269EA5A91313E3323F4D /* Dropper.modulemap */,
+				9522D99B101A50705F1AED0C5BC0EF14 /* Dropper.xcconfig */,
+				9F46A568C8FA4D281BFC7244AE845294 /* Dropper-dummy.m */,
+				A50B2345D3C5F374990429B5836528F3 /* Dropper-prefix.pch */,
+				95D3C88FDE18A6A4F02F72866CF92059 /* Dropper-umbrella.h */,
+				FF7D4F5CDAD5B0ACAEF9A10BF714C19D /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Dropper";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6C1E2ED9560EF865496E5B901133F3D8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E7AE3ECFFB08DD889D8923952FB9C74 /* Dropper-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		905BD4496BF51ACD71246DCE543E6163 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D99DEB264819F8CDE2EADD2D2C66B2F /* Pods-do-hoang-vu-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		35753FFAC94E4E30249C261EB4F29321 /* Dropper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED33B862861471DEF077733670F180CB /* Build configuration list for PBXNativeTarget "Dropper" */;
+			buildPhases = (
+				1094AF44E64F18D09282AE101FE089C6 /* Sources */,
+				037E362730AF5DBB2A3117FBFCC44871 /* Frameworks */,
+				6C1E2ED9560EF865496E5B901133F3D8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dropper;
+			productName = Dropper;
+			productReference = 6FE275F2585DA662E78CFB1F5BD23BCD /* Dropper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A983A58668D350F6208A33C82FB95B5F /* Pods-do-hoang-vu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 607452863807FED190351A9087BEED35 /* Build configuration list for PBXNativeTarget "Pods-do-hoang-vu" */;
+			buildPhases = (
+				B8421FEBB1A986BF0C0D7570EAB03510 /* Sources */,
+				48BE00BCB7C9B82CD74B0571FE118F4D /* Frameworks */,
+				905BD4496BF51ACD71246DCE543E6163 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BEFD5FA1DE4BF0BCCBACA408F63A292 /* PBXTargetDependency */,
+			);
+			name = "Pods-do-hoang-vu";
+			productName = "Pods-do-hoang-vu";
+			productReference = 162FE7C93543BDA2EB35B9D010ED6D2A /* Pods_do_hoang_vu.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 589003DC6D2A2AA054A16D0176F473BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35753FFAC94E4E30249C261EB4F29321 /* Dropper */,
+				A983A58668D350F6208A33C82FB95B5F /* Pods-do-hoang-vu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1094AF44E64F18D09282AE101FE089C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85E75594C84C3C63AA0954D2B8C49EE8 /* Dropper-dummy.m in Sources */,
+				68C18B76F3C5BA0728EC11F299B96E2E /* Dropper.swift in Sources */,
+				2107E540B0D204F4DEDD93D668A87048 /* DropperCell.swift in Sources */,
+				EC10FD142BC1BAB99D279DDB433AAD83 /* DropperDelegate.swift in Sources */,
+				4DA4C5E0DF43500E9FF46FCC47D29D9D /* DropperExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8421FEBB1A986BF0C0D7570EAB03510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3EF7147B02F1D228F19B79293564A72 /* Pods-do-hoang-vu-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BEFD5FA1DE4BF0BCCBACA408F63A292 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Dropper;
+			target = 35753FFAC94E4E30249C261EB4F29321 /* Dropper */;
+			targetProxy = 1737AAD60B6C537B5CDA3DA1E39C6D42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		145D27513B5277E0E12CC1758056015A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 571072AF9F519FF9575A3E936C1A0A3C /* Pods-do-hoang-vu.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-do-hoang-vu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-do-hoang-vu/Pods-do-hoang-vu.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		30D948AE62C04225F8DEF8734A4C5A26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		3229FDE81A2C5F6A0FAECF3CF08F1CFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6198CFCC3D441F0668EC595CC885D87 /* Pods-do-hoang-vu.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-do-hoang-vu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-do-hoang-vu/Pods-do-hoang-vu.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		46058A9CB35E16568A3C3EF624ACC00B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9522D99B101A50705F1AED0C5BC0EF14 /* Dropper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Dropper/Dropper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Dropper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Dropper/Dropper.modulemap";
+				PRODUCT_MODULE_NAME = Dropper;
+				PRODUCT_NAME = Dropper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8C6253F855493DF1BB08CAC3CB4BAAC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9522D99B101A50705F1AED0C5BC0EF14 /* Dropper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Dropper/Dropper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Dropper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Dropper/Dropper.modulemap";
+				PRODUCT_MODULE_NAME = Dropper;
+				PRODUCT_NAME = Dropper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E88537B08ED4D6EB44DBA7BC8D56A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E88537B08ED4D6EB44DBA7BC8D56A35 /* Debug */,
+				30D948AE62C04225F8DEF8734A4C5A26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		607452863807FED190351A9087BEED35 /* Build configuration list for PBXNativeTarget "Pods-do-hoang-vu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3229FDE81A2C5F6A0FAECF3CF08F1CFD /* Debug */,
+				145D27513B5277E0E12CC1758056015A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED33B862861471DEF077733670F180CB /* Build configuration list for PBXNativeTarget "Dropper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46058A9CB35E16568A3C3EF624ACC00B /* Debug */,
+				8C6253F855493DF1BB08CAC3CB4BAAC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
